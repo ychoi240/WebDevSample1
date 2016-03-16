@@ -1,0 +1,164 @@
+header{
+	text-align:center;
+}
+
+.scores{
+	float: right;
+	border-style: outset;
+	background: linear-gradient(to right,#989792,white);
+}
+
+.scores p{
+	text-align:center;
+}
+
+.turn {
+	padding-top: 5%;
+	text-align: center;
+	
+}
+
+.turn p{
+	font-weight: bold;
+
+}
+
+.playingArea{
+	width: 100%;
+	height: 80%;
+	background-image: url("fallout-new-vegas-hd-wallpaperBACKGROUND.jpeg");
+	border: solid black 1px;
+}
+
+.playingArea div{
+	display: inline-block;
+
+}
+
+.card{
+	background-image: url("falloutCARD.jpg");
+	width: 150px;
+	height: 197px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 67px;
+	border-style: outset;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	background-image: url("fallout-vault.jpg");
+	font-family: arial;
+}
+
+ul li {
+	display:inline-block;
+	margin: 0 auto;
+}
+.card:active{
+	transform: rotateY(360deg);
+	transition-duration: 0.5s;
+}
+.suit0flipped{
+	background-image: url("Suit1.png");
+}
+
+.suit1flipped{
+	background-image: url("SUIT2.jpg");
+}
+
+.suit2flipped{
+	background-image: url("suit3.jpg");
+}
+
+.suit3flipped{
+	background-image: url("suit4.jpg");
+}
+
+.card:hover{
+	box-shadow: 5px 5px 5px #444444;	
+}
+
+.cardFront{
+	color: blue;
+}
+
+
+footer {
+	margin-top: 20px;
+}
+
+.card span {
+	visibility:hidden;
+	font-weight: bold;
+	padding-top: 100px;
+	margin-left: 100px;
+}
+
+.card:active span{
+	visibility: visible;
+}
+
+
+@media screen and (max-width: 750px) {
+
+	body{
+		background-image: url("background+pattern+design+33.jpg");
+	}
+	
+	.card {
+		background-image:url("fallout__vault_boy_by_buggzz-d4ewswvCARD.png");
+		width: 60px;
+		height: 80px;
+		margin: 30px 30px 30px 10px;
+		border-radius: 10px 10px 10px 10px;
+		
+	}
+	
+	.suit0flipped{
+		background-image:url("suit1SMALL.png");
+	}
+	
+	.suit1flipped{
+		background-image:url("SUIT2SMALL.jpg");
+	}
+	
+	.suit2flipped{
+		background-image:url("suit3SMALL.jpg");
+	}
+	
+	.suit3flipped{
+		background-image:url("suit4SMALL.jpg");
+	}
+	
+	
+.playingArea{
+		width: 500px;
+		height: 400px;
+		background-image:url("Vault_boy_new_vegasBACKGROUND.png");
+
+}
+	
+.playingArea div{
+	display: inline-block;
+}
+	
+	.card span {
+		visibility: hidden;
+		margin-left: 10px;
+	}
+	
+	.card:active span {
+		visibility: visible;
+	}
+	
+	header h1 {
+		font-size: 16pt;
+		font-style: italic;
+	}
+	
+	
+
+}
+
